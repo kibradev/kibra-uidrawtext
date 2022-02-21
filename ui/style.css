@@ -1,0 +1,46 @@
+.MainClass {
+    background: rgb(45 119 163);
+    padding-top: 1px;
+    position: relative;
+    top: 45vh;
+    border: 3px solid rgb(45 119 163);
+    padding-right: 1vh;
+    padding-bottom: 1px;
+    padding-left: 1vh;
+    display: none;
+    border-radius: .3vh;
+    width: fit-content;
+}
+
+.notifytext {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+
+.BoldText {
+    font-weight: 600;
+}
+
+
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to { 
+        opacity: 1;
+        transform: translateX(0%);
+     }
+}
+
+@keyframes fadeOutBottom {
+    from {
+        opacity: 1;
+        transform: translateX(0);
+     }
+     to {
+        opacity: 0;
+        transform: translateX(50px);
+     }
+}
+
