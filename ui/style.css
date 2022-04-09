@@ -1,24 +1,34 @@
 .MainClass {
-    background: rgb(45 119 163);
+    background: rgb(15 26 32);
     padding-top: 1px;
     position: relative;
-    top: 45vh;
-    border: 3px solid rgb(45 119 163);
-    padding-right: 1vh;
+    margin: auto;
+    top: 89vh;
+    padding-right: 5vh;
     padding-bottom: 1px;
-    padding-left: 1vh;
+    padding-left: 5vh;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-radius: 1vh;
     display: none;
-    border-radius: .3vh;
     width: fit-content;
+    
+}
+
+.border-gradient-purple {
+    border-image-source: linear-gradient(to left, #3a71d5, #45a4a9);
 }
 
 .notifytext {
     font-family: 'Inter', sans-serif;
     color: #fff;
+    font-weight: 600;
 }
 
 .BoldText {
-    font-weight: 600;
+    font-weight: 700;
+    color: #17a1af;
 }
 
 
